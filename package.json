@@ -1,0 +1,16 @@
+{
+  "name": "quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "git submodule update --init --recursive && hugo",
+    "start": "hugo server --port $PORT --bind $HOST"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hugo-bin": "^0.76.1"
+  }
+}
